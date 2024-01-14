@@ -24,6 +24,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/cheetah/aospa_cheetah.mk \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
+    $(LOCAL_DIR)/ginkgo/aospa_ginkgo.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
     $(LOCAL_DIR)/lavender/aospa_lavender.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
@@ -66,6 +67,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_cheetah-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
+    aospa_ginkgo-userdebug \
     aospa_juice-userdebug \
     aospa_lavender-userdebug \
     aospa_lisa-userdebug \
