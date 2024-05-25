@@ -16,6 +16,7 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/alioth/aospa_alioth.mk \
     $(LOCAL_DIR)/apollo/aospa_apollo.mk \
+    $(LOCAL_DIR)/beckham/aospa_beckham.mk \
     $(LOCAL_DIR)/beryllium/aospa_beryllium.mk \
     $(LOCAL_DIR)/bitra/aospa_bitra.mk \
     $(LOCAL_DIR)/bladerunner/aospa_bladerunner.mk \
@@ -25,7 +26,9 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/davinci/aospa_davinci.mk \
     $(LOCAL_DIR)/dubai/aospa_dubai.mk \
     $(LOCAL_DIR)/ginkgo/aospa_ginkgo.mk \
+    $(LOCAL_DIR)/evert/aospa_evert.mk \
     $(LOCAL_DIR)/juice/aospa_juice.mk \
+    $(LOCAL_DIR)/lake/aospa_lake.mk \
     $(LOCAL_DIR)/lavender/aospa_lavender.mk \
     $(LOCAL_DIR)/lisa/aospa_lisa.mk \
     $(LOCAL_DIR)/lmi/aospa_lmi.mk \
@@ -59,6 +62,7 @@ PRODUCT_MAKEFILES += \
 COMMON_LUNCH_CHOICES += \
     aospa_alioth-userdebug \
     aospa_apollo-userdebug \
+    aospa_beckham-userdebug \
     aospa_beryllium-userdebug \
     aospa_bitra-userdebug \
     aospa_bladerunner-userdebug \
@@ -67,8 +71,10 @@ COMMON_LUNCH_CHOICES += \
     aospa_cheetah-userdebug \
     aospa_davinci-userdebug \
     aospa_dubai-userdebug \
+    aospa_evert-userdebug \
     aospa_ginkgo-userdebug \
     aospa_juice-userdebug \
+    aospa_lake-userdebug \
     aospa_lavender-userdebug \
     aospa_lisa-userdebug \
     aospa_lmi-userdebug \
