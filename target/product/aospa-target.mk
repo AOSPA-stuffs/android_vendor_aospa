@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
 # Qualcomm Common
 $(call inherit-product, device/qcom/common/common.mk)
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Repainter (kdrag0n)
 PRODUCT_PACKAGES += \
     RepainterServicePriv
