@@ -8,11 +8,14 @@ LOCAL_OVERRIDES_PACKAGES := \
     Drive \
     Gmail2 \
     Maps \
-    Velvet \
+    Photos \
+    FamilyLinkParentalControls \
+    GoogleCameraGo \
     YouTube \
     AndroidAutoStub \
     talkback \
     PersonalSafety \
+    Wellbeing \
     Turbo
 
 LOCAL_UNINSTALLABLE_MODULE := true
