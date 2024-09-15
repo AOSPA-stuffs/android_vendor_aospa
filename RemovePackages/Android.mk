@@ -18,6 +18,14 @@ LOCAL_OVERRIDES_PACKAGES := \
     Wellbeing \
     Turbo
 
+ifneq (,$(filter %evert lake, $(TARGET_PRODUCT)))
+LOCAL_OVERRIDES_PACKAGES += \
+    Chrome64 \
+    GoogleLocationHistory \
+    GoogleRestore \
+    Velvet
+endif
+
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
