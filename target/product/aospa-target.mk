@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 PRODUCT_COPY_FILES += \
+    vendor/aospa/prebuilts/fonts/HarmonyOS-Sans.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Roboto-Regular.ttf \
+    vendor/aospa/prebuilts/fonts/HarmonyOS-Sans-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RobotoStatic-Regular.ttf
+
+PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/aospa/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
