@@ -11,7 +11,7 @@
         <item>MANUFACTURER:Google</item>
         <item>BRAND:google</item>
         <item>MODEL:Pixel 9</item>
-        <item>FINGERPRINT:google/tokay_beta/tokay:15/BP11.241121.013/12873528:user/release-keys</item>
-        <item>VERSION.SECURITY_PATCH:2024-12-05</item>
+        <item>FINGERPRINT:google/tokay_beta/tokay:16/BP22.250325.007/13352765:user/release-keys</item>
+        <item>VERSION.SECURITY_PATCH:2025-04-05</item>
     </string-array>
 </resources>
