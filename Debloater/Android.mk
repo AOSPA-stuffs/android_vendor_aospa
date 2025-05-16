@@ -4,12 +4,20 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Debloater
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES += \
-Drive \
-Gmail2 \
-Maps \
-YouTube \
-GoogleFeedback
+LOCAL_OVERRIDES_PACKAGES := \
+    AndroidAutoStub \
+    Drive \
+    GoogleFeedback \
+    FamilyLinkParentalControls \
+    Gmail2 \
+    Maps \
+    MusicFX \
+    PersonalSafety \
+    talkback \
+    Turbo \
+    Wellbeing \
+    YouTube
+
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
